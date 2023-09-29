@@ -1,0 +1,107 @@
+/* .contact {
+  padding: 0 10%;
+  margin-top: 10px;
+}
+.contact h2 {
+  font-size: 32px;
+}
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.email {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacts a {
+  font-size: 32px;
+  padding: 0 20px;
+  color: white;
+} */
+.contact-section {
+  background: #95adbe;
+  /* height: 100vh; */
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  top: 25%;
+  left: 35%;
+  padding: 20px 20px;
+  border-radius: 20px;
+  /* margin: auto; */
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.contact-section h2 {
+  font-weight: 700;
+  font-size: 35px;
+}
+.address {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+.address i {
+  font-size: 35px;
+}
+.address p {
+  margin-left: 30px;
+}
+.email {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+.email i {
+  font-size: 35px;
+}
+.email p {
+  margin-left: 30px;
+}
+.phone {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+.phone i {
+  font-size: 35px;
+}
+.phone p {
+  margin-left: 30px;
+}
+.website {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px 10px;
+}
+.website i {
+  font-size: 35px;
+}
+.website p {
+  margin-left: 30px;
+}
+.cursor {
+  cursor: pointer;
+}
